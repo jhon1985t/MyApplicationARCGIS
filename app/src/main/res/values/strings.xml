@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application ARCGIS</string>
+    <string name="location_permission_denied">Permisos denegados</string>
+</resources>
