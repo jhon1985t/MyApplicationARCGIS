@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createGraphicsOverlay() {
     mGraphicsOverlay = GraphicsOverlay()
-    mMapView.graphicsOverlays.add(mGraphicsOverlay);
+    mMapView.graphicsOverlays.add(mGraphicsOverlay)
     }
 
     private fun createPointGraphics() {
@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createGraphics() {
         createGraphicsOverlay()
-        createPointGraphics()
+        //createPointGraphics()
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String?>, grantResults: IntArray) {
